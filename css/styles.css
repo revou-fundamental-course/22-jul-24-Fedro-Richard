@@ -29,20 +29,12 @@ nav > .nav-container {
     display: flex;
 }
 
-.main-content-item {
-    border: 1px solid;
-    width: 100%;
-    height: 250px;
-    align-items: center;
-}
-
 .main-content-banner {
-    width: 200px; 
-    height: 100px; 
+    width: 300px; 
+    height: 200px; 
     border: 1px solid; 
     margin: auto;
-    margin-top: 10px;
-    padding: 30px;
+    padding: 20px;
     background-color: gray;
     text-align: center;
 }
@@ -75,9 +67,58 @@ nav > .nav-container {
     color: #888;
   }
 
+  .main-content-item {
+    border: 1px solid;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+}
+  .container-form {
+    background-color: #fff;
+    padding: 0px 50px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #008CBA;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
   .container-footer {
     width: 80%;
     margin: 50px auto;
+    margin-top: 60%;
     padding: 30px;
     background-color: #fff;
     border: 1px solid black;
@@ -86,21 +127,26 @@ nav > .nav-container {
   }
 
   h1 {
+    padding: 10px 50px 20px;
+    text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 20px;
   }
 
   p {
+    text-align: center;
     font-size: 1.1rem;
     line-height: 1.6;
     margin-bottom: 30px;
   }
 
   .button {
-    display: inline-block;
-    padding: 15px 30px;
-    background-color: #333;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
