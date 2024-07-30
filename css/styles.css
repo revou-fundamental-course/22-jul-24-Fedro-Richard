@@ -1,9 +1,15 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
 nav {
     border: 1px;
     display: flex;
     justify-content: space-between;
     padding: 12px;
     align-items: center;
+    background-color: #6EACDA;
 }
 
 .logo-icon {
@@ -12,7 +18,7 @@ nav {
 }
 nav > .nav-container {
     display: flex;
-
+    text-decoration: none;
 }
 
 .nav-item {
@@ -23,6 +29,7 @@ nav > .nav-container {
 .main-title {
     border: 2px;
     text-align: center;
+    text-decoration: none;
 }
 
 .main-content {
@@ -170,7 +177,7 @@ nav > .nav-container {
 }
   
 .card {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -186,16 +193,16 @@ nav > .nav-container {
 }
 
 .icon {
-  display: inline-block;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: #333;
-  margin-bottom: 10px;
-
+  margin-bottom: 10px
 }
+
   hr {
     border: 0;
     height: 1px;
