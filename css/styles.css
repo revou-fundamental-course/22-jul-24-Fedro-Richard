@@ -1,5 +1,5 @@
 nav {
-    border: 1px solid black;
+    border: 1px;
     display: flex;
     justify-content: space-between;
     padding: 12px;
@@ -7,7 +7,7 @@ nav {
 }
 
 .logo-icon {
-        border: 1px solid;
+        border: 1px;
         background-image: none;
 }
 nav > .nav-container {
@@ -21,7 +21,7 @@ nav > .nav-container {
 }
 
 .main-title {
-    border: 2px solid;
+    border: 2px;
     text-align: center;
 }
 
@@ -32,17 +32,24 @@ nav > .nav-container {
 .main-content-banner {
     width: 300px; 
     height: 200px; 
-    border: 1px solid; 
+    border: 1px; 
     margin: auto;
-    padding: 30px;
+    padding: 5%;
     background-color: gray;
     text-align: center;
+}
+
+.quote {
+  margin-top: 10px;
 }
 
 .container-profil{
     display: flex;
     align-items: center;
-    border: 1px solid black;
+    justify-content: center;
+    border: 1px;
+    margin-right: 200px;
+    padding: 0px;
   }
   .profile-pic {
     width: 50px;
@@ -58,16 +65,19 @@ nav > .nav-container {
   .profile-info {
     font-size: 16px;
     font-weight: bold;
+    text-align: left;
   }
+
   .profile-details {
     font-size: 12px;
+    text-align: left;
     color: #888;
   }
 
   .main-content-item {
-    border: 1px solid;
+    border: 1px;
     width: 100%;
-    height: 600px;
+    height: 500px;
     align-items: center;
 
 }
@@ -75,7 +85,7 @@ nav > .nav-container {
     background-color: #fff;
     padding: 0px 50px 10px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 245, 245, 0.1);
     
   }
   
@@ -115,9 +125,14 @@ nav > .nav-container {
   }
 
   /* Benefit */
+  
+  .section-paragraph {
+    margin-right: 200px;
+  }
 
   .section-benefit {
-    border: 1px solid;
+    padding-left: 50px;
+    border: 1px;
     max-width: 65%;
   }
 
@@ -145,11 +160,13 @@ nav > .nav-container {
 
   /* Our Package */
    .section-package {
-    border: 1px solid;
+    border: 1px;
    }
 
   .container-package {
     display: flex;
+    justify-content: center;
+    padding-left: 5%;
 }
   
 .card {
@@ -175,7 +192,7 @@ nav > .nav-container {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #f2f2f2;
+  background-color: #333;
   margin-bottom: 10px;
 
 }
