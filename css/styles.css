@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
   background-color: #6EACDA;
   margin: 0;
   padding: 0;
+  font-family: Montserrat;
+
 }
 nav {
     border: 1px;
@@ -52,19 +56,21 @@ li a {
 
 .main-content {
     display: flex;
+    margin: 5%;
 }
 
 .main-content-banner > img{
-    width: 300px; 
-    height: 200px; 
+    width: 400px; 
+    height: 300px; 
     border: 1px; 
     margin: auto;
     padding: 5%;
+    padding-left: 15%; 
     text-align: center;
 }
 
 .quote {
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 .container-profil{
@@ -79,7 +85,7 @@ li a {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #888;
+    background-color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +101,7 @@ li a {
   .profile-details {
     font-size: 12px;
     text-align: left;
-    color: #888;
+    color: #333;
   }
 
   .main-content-item {
@@ -179,7 +185,7 @@ li a {
 
   .text-info {
     font-size: 16px;
-    color: #888;
+    color: #333;
   }
 
   /* Our Package */
