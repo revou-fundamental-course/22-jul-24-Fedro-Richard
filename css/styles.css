@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #6EACDA;
   margin: 0;
   padding: 0;
 }
@@ -9,12 +9,13 @@ nav {
     justify-content: space-between;
     padding: 12px;
     align-items: center;
-    background-color: #6EACDA;
+    background-color: #E2E2B6;
 }
 
 .logo-icon {
         border: 1px;
         background-image: none;
+        padding-left: 20px;
 }
 nav > .nav-container {
     display: flex;
@@ -26,6 +27,23 @@ nav > .nav-container {
     padding: 8px;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
 .main-title {
     border: 2px;
     text-align: center;
@@ -36,13 +54,12 @@ nav > .nav-container {
     display: flex;
 }
 
-.main-content-banner {
+.main-content-banner > img{
     width: 300px; 
     height: 200px; 
     border: 1px; 
     margin: auto;
     padding: 5%;
-    background-color: gray;
     text-align: center;
 }
 
